@@ -21,4 +21,21 @@ permite operar sobre colecciones de forma generica permitiendo flexibilidad y re
 # Collections java.util package.
 Es la clase de java que contiene diferentes metodos para usar con los objetos collection como arrayList,HashSet
 TreeSet...
-
+# List interface:
+Es una interface hija de collection 
+- concerva el orden enque se ingresan los datos a la lista.
+-  tambien permite elementos duplicados esta interface tiene como clases:
+- ArrayList.
+- Linked list.
+- stack -> and vector.
+# Set interface:
+- Es otra interface hija de collection
+- no concerva el otrden de insercion
+- no permite elementos duplicados
+y tiene como clases 
+- HashSet.
+- LinkedHashSet.
+# Queue interface
+- Interface hija de collection
+- Fifo (First in first out)
+- prioridad para procesar datos.
