@@ -29,13 +29,19 @@ Es una interface hija de collection
 - Linked list.
 - stack -> and vector.
 # Set interface:
-- Es otra interface hija de collection
+- Es otra interface hija de collections
 - no concerva el otrden de insercion
 - no permite elementos duplicados
 y tiene como clases 
 - HashSet.
 - LinkedHashSet.
 # Queue interface
-- Interface hija de collection
+- Interface hija de collections
 - Fifo (First in first out)
 - prioridad para procesar datos.
+# Map interface.
+- No pertenece a la clase Collections.
+- Permite guardar elementos con una llave (objeto) y un valor(objeto)
+- La llave no puede ser duplicada. Debe ser unica.
+- El valor si puede ser duplicado.
+- Contiene las clases HashMap,LinkedHashMap y HashTable.
