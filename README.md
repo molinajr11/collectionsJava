@@ -23,6 +23,7 @@ Es la clase de java que contiene diferentes metodos para usar con los objetos co
 TreeSet...
 # List interface:
 Es una interface hija de collection 
+- Las listas tienen un index y un valor que es un object.
 - concerva el orden enque se ingresan los datos a la lista.
 -  tambien permite elementos duplicados esta interface tiene como clases:
 - ArrayList.
@@ -45,3 +46,13 @@ y tiene como clases
 - La llave no puede ser duplicada. Debe ser unica.
 - El valor si puede ser duplicado.
 - Contiene las clases HashMap,LinkedHashMap y HashTable.
+# ArrayList
+ArrayList array= new ArrayList<>(); Delcaracion que recibira hetereogeneous data.
+ArrayList<Integer>numbers=new ArrayList<Integer>(); Declaracion con un tipo definido de dato.
+
+# ArrayList vs List
+list es una interface
+ArrayList list es una implementacion de la interface list.
+cuando declaramos List<String> ejemplo= new ArrayList<String>(); decimos que el tipo de variable de referencia es de tipo list y que podemos cabiar despues este tipo de implementacion haciendolo flexible.
+Sin embargo si hay casos que es necesario declarar la variable de referencia como implementacion 
+ArrayList <String> ejemplo = new ArrayList<String>(); porque hay metodos que solo tiene esa implementacion.
