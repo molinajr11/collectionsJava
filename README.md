@@ -56,3 +56,13 @@ ArrayList list es una implementacion de la interface list.
 cuando declaramos List<String> ejemplo= new ArrayList<String>(); decimos que el tipo de variable de referencia es de tipo list y que podemos cabiar despues este tipo de implementacion haciendolo flexible.
 Sin embargo si hay casos que es necesario declarar la variable de referencia como implementacion 
 ArrayList <String> ejemplo = new ArrayList<String>(); porque hay metodos que solo tiene esa implementacion.
+
+# Liked list
+- Las linked cada objeto se guarda en un espacio de memoria y se llaman nodos. los nodos pueden interactuar entre si sin importar el orden.
+- Las linked list al ser una implementacion de List(I) tiene los metodos de list de array list y tambien 
+puede utilizar los metodos le Queque(I).
+- Cada nodo tiene tres partes [elemento previo][elemento][sigiente elemento].
+- Se puede agregar toda una coleccion de tipo list(I) en como un nodo en un linked list. addAll(collection).
+Se prefiere usar el array list cuando se busca hacer mas operaciones de obtener data porque en el linked list
+es mas demorado ya que el va nodo por nodo buscando el elemento que se necesita.
+Se prefiere usar el LinkedList cuando se desea insertar o borra data por que es mas rapido y mas eficiente.
