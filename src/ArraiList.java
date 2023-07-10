@@ -3,7 +3,6 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import static java.util.Collections.sort;
 
 public class ArraiList {
     public static void main(String[] args) {
@@ -14,7 +13,7 @@ public class ArraiList {
         }
         for(int i : numbers) {
             if(i%2==0){
-                numbersPair.add(i);;
+                numbersPair.add(i);
 
             }
         }
