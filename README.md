@@ -49,9 +49,10 @@ y tiene como clases
 # ArrayList
 ArrayList array= new ArrayList<>(); Delcaracion que recibira hetereogeneous data.
 ArrayList<Integer>numbers=new ArrayList<Integer>(); Declaracion con un tipo definido de dato.
+Inicial size 10 elements.
 
 # ArrayList vs List
-list es una interface
+list es una interface.
 ArrayList list es una implementacion de la interface list.
 cuando declaramos List<String> ejemplo= new ArrayList<String>(); decimos que el tipo de variable de referencia es de tipo list y que podemos cabiar despues este tipo de implementacion haciendolo flexible.
 Sin embargo si hay casos que es necesario declarar la variable de referencia como implementacion 
@@ -66,3 +67,14 @@ puede utilizar los metodos le Queque(I).
 Se prefiere usar el array list cuando se busca hacer mas operaciones de obtener data porque en el linked list
 es mas demorado ya que el va nodo por nodo buscando el elemento que se necesita.
 Se prefiere usar el LinkedList cuando se desea insertar o borra data por que es mas rapido y mas eficiente.
+
+# HashSet Set(I)
+- No permite elementos duplicados.
+- No concerva el orden de insercion.
+- HashCode // es la forma en que se guarda la información en memoria.
+- Permite hetereogeneous data.
+- Permite guardar null.
+- inicial size 16 elements.
+Es conveniete implementar esta coleccion cuando la mayoria de operaciones son de busqueda.
+- Tiene load Factor es un porcentaje del 70% que se usa para inidicar cuando agregar mas espacio en un hashSet
+este valor puede ser personalizado igual que el tañano del hashSet mediante el constructor.
