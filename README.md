@@ -70,7 +70,7 @@ Se prefiere usar el LinkedList cuando se desea insertar o borra data por que es 
 
 # HashSet Set(I)
 - No permite elementos duplicados.
-- No concerva el orden de insercion.
+3- No concerva el orden de insercion.
 - HashCode // es la forma en que se guarda la información en memoria.
 - Permite hetereogeneous data.
 - Permite guardar null.
@@ -78,3 +78,46 @@ Se prefiere usar el LinkedList cuando se desea insertar o borra data por que es 
 Es conveniete implementar esta coleccion cuando la mayoria de operaciones son de busqueda.
 - Tiene load Factor es un porcentaje del 70% que se usa para inidicar cuando agregar mas espacio en un hashSet
 este valor puede ser personalizado igual que el tañano del hashSet mediante el constructor.
+
+# Linked-HashSet
+- La unica diferencia con el hashSet es que conserva el orden de insercion de los datos.
+
+# Queue (I) fifo
+- primero en entrar primero en salir 
+- contiene las clases priority Queue y Linked-List por eso linked-List puede usarse como un queue.
+- contiene las interfaces Dequeue, ArrayDeque
+# priority Queue.
+- Conserva el orden de insercion de los datos.
+- permite elementos duplicados.
+- Solo permite datos homogeneos.
+metodos:
+- add() retrun true/exeption. offer() retrun true/null.
+- element ()  true/exeption. peek() retrun true/null.
+- remove () true/exeption. poll() retrun true/null.
+
+# HashMap (c)
+Es muy util y optimo cuando se desean hacer operaciones de busqueda.
+- seguarda en memoria con o hasTable.
+- el orden de ingreos no es preservado.
+- No permite guardar valores duplicados en la llave.
+- Permite valores duplicados en el objeto.
+- Permite llave de valor null pero solo una en toda la colleccion.
+- Permite varios valores null como objetos.
+Metodos:
+- put(Key,value) agrega datos.
+- putAll(map m) agrega otro map.
+- get(key) retorna el valror.
+- remove(key) retorna el valor.
+- containKey(key) retorna true of false.
+- containValue (Value) retorna true or false.
+- isEmpty() verifica si el map esta vacio retorna true or false.
+- size() tamaño del map.
+- clear () limpia todo el mapa.
+- keySet() retorna todas las llaves del map. Set porque no permite llaves duplicadas.
+- values() retorna todos los valores del mapa.
+- entrySet() retorna la llave y el valor del mapa uno por uno.
+# Entry interface es una implementacion de hashMap (i).
+Es usada para usar cada par o entry del hasMap.
+- metodos.
+getValue().
+setValue(object).
