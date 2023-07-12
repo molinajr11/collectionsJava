@@ -121,3 +121,11 @@ Es usada para usar cada par o entry del hasMap.
 - metodos.
 getValue().
 setValue(object).
+# HashTabel vs HashMap
+HashTable trabaja internamente synchronize lo que significa que un solo hilo puede realizar tareas de metodos.
+- poco rendimiento por el poco acceso a hilos.
+- No permite valores nulos en la key y en el valor.
+HashMap
+- no synchronized multiples hilos disponibles.
+- buen rendimiento.
+- valor nulo valido solo para una key del HasMap.
